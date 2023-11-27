@@ -63,6 +63,27 @@ build CMakeFiles/Trajet.dir/main.cpp.o: CXX_COMPILER__Trajet_unscanned_Debug /Us
   OBJECT_DIR = CMakeFiles/Trajet.dir
   OBJECT_FILE_DIR = CMakeFiles/Trajet.dir
 
+build CMakeFiles/Trajet.dir/TrajetS.cpp.o: CXX_COMPILER__Trajet_unscanned_Debug /Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/TrajetS.cpp || cmake_object_order_depends_target_Trajet
+  DEP_FILE = CMakeFiles/Trajet.dir/TrajetS.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/.
+  OBJECT_DIR = CMakeFiles/Trajet.dir
+  OBJECT_FILE_DIR = CMakeFiles/Trajet.dir
+
+build CMakeFiles/Trajet.dir/Node.cpp.o: CXX_COMPILER__Trajet_unscanned_Debug /Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/Node.cpp || cmake_object_order_depends_target_Trajet
+  DEP_FILE = CMakeFiles/Trajet.dir/Node.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/.
+  OBJECT_DIR = CMakeFiles/Trajet.dir
+  OBJECT_FILE_DIR = CMakeFiles/Trajet.dir
+
+build CMakeFiles/Trajet.dir/ListeChainee.cpp.o: CXX_COMPILER__Trajet_unscanned_Debug /Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/ListeChainee.cpp || cmake_object_order_depends_target_Trajet
+  DEP_FILE = CMakeFiles/Trajet.dir/ListeChainee.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/qinshudai/Desktop/INSA/IF/3A/C++/Trajet/.
+  OBJECT_DIR = CMakeFiles/Trajet.dir
+  OBJECT_FILE_DIR = CMakeFiles/Trajet.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Trajet
@@ -71,7 +92,7 @@ build CMakeFiles/Trajet.dir/main.cpp.o: CXX_COMPILER__Trajet_unscanned_Debug /Us
 #############################################
 # Link the executable Trajet
 
-build Trajet: CXX_EXECUTABLE_LINKER__Trajet_Debug CMakeFiles/Trajet.dir/Trajet.cpp.o CMakeFiles/Trajet.dir/main.cpp.o
+build Trajet: CXX_EXECUTABLE_LINKER__Trajet_Debug CMakeFiles/Trajet.dir/Trajet.cpp.o CMakeFiles/Trajet.dir/main.cpp.o CMakeFiles/Trajet.dir/TrajetS.cpp.o CMakeFiles/Trajet.dir/Node.cpp.o CMakeFiles/Trajet.dir/ListeChainee.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/Trajet.dir
   POST_BUILD = :
